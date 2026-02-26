@@ -1,7 +1,6 @@
 
 from sklearn.cluster import MeanShift
 from sklearn.datasets import load_iris
-
 def mean_shift_clustering():
     # Load built-in Iris dataset
     data = load_iris()
