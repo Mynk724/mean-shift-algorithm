@@ -9,7 +9,6 @@ def mean_shift_clustering():
     # Apply Mean Shift
     ms = MeanShift()
     labels = ms.fit_predict(X)
-
     print("Cluster Centers:")
     print(ms.cluster_centers_)
     print("Number of Clusters:", len(set(labels)))
